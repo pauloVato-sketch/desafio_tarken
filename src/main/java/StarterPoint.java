@@ -3,7 +3,7 @@ import java.io.IOException;
 public class StarterPoint {
 
     public static void main(String[] args) {
-        Utils obj = new Utils("res/meteor_challenge_01.png");
+        Utils obj = new Utils("src/main/resources/meteor_challenge_01.png");
         obj.loadImage();
         System.err.println("W: " + obj.getImg().getWidth() + ", H: " + obj.getImg().getHeight());
         PixelAnalysis pa = new PixelAnalysis();
